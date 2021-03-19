@@ -2598,7 +2598,7 @@ body {
   background-color: #888 !important; }
 
 .bg-primary {
-  background-color: #378C3F !important; }
+background-color: #378C3F !important;}
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -3576,6 +3576,9 @@ Created using IcoMoon - icomoon.io
 
 .landing-page .section-contact-us a.btn {
   margin-top: 35px; }
+
+.profile-page .page-header {
+  min-height: 550px; }
 
 .profile-page .page-header {
   min-height: 550px; }
