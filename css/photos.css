@@ -5060,12 +5060,14 @@ Created using IcoMoon - icomoon.io
   font-size: 18px;
   letter-spacing: 1px; }
 
+@media (max-width: 480px) {
 .zoom:hover{                           /* :active */
   -webkit-transform: scale(2,2);
   transform: scale(2,2);
   transition: opacity 1.6s ease-out 0s, transform 0.2s linear 0s;
     transform-origin: center center;
     animation: normal;
+}
 }
 
 /* Footer */
