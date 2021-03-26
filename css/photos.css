@@ -5080,7 +5080,7 @@ Created using IcoMoon - icomoon.io
     animation: normal;
   } 
 
-@media all and (max-width:540px) {
+@media all and (min-width:393px) {
 .zoom:hover{                          
   -webkit-transform: scale(2,2);
   transform: scale(2,2);
@@ -5089,7 +5089,7 @@ Created using IcoMoon - icomoon.io
   animation: normal;
   width:500px;
 }
-} 
+} */
 
 
 
