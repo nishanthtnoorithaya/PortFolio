@@ -2777,7 +2777,7 @@ img {
 
 @media screen and (orientation:portrait){
   img{
-    width:500px;
+    width:300px;
     height: 200px;
   }
 }
@@ -5068,21 +5068,20 @@ Created using IcoMoon - icomoon.io
   letter-spacing: 1px; }
 
   #backgound {
-      width: auto;
-      background-image:url("images/background.jpg");
-      background-color: cyan;
+    width: auto;
+    background-color: #F1DBCD;
+}
 
-  }
-  .zoom:hover{                           /* :active */
+  /* .zoom:hover{                         
     -webkit-transform: scale(2,2);
     transform: scale(2,2);
     transition: opacity 1.6s ease-out 0s, transform 0.2s linear 0s;
     transform-origin: center center;
     animation: normal;
-  }
+  } 
 
 @media all and (max-width:540px) {
-.zoom:hover{                           /* :active */
+.zoom:hover{                          
   -webkit-transform: scale(2,2);
   transform: scale(2,2);
   transition: opacity 1.6s ease-out 0s, transform 0.2s linear 0s;
@@ -5090,9 +5089,7 @@ Created using IcoMoon - icomoon.io
   animation: normal;
   width:500px;
 }
-}
-
-
+} */
 
 /* Footer */
 /* Social button style */
@@ -5123,6 +5120,6 @@ a.credit {
 .footer{
   position: relative;
   height: 200px;
-  background-color: cyan;
+  background-color:#F1DBCD;
 
 }
