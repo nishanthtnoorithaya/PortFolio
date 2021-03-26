@@ -5060,7 +5060,7 @@ Created using IcoMoon - icomoon.io
   font-size: 18px;
   letter-spacing: 1px; }
 
-@media (max-width: 640px) {
+@media (max-width: 540px) {
 .zoom:hover{                           /* :active */
   -webkit-transform: scale(2,2);
   transform: scale(2,2);
