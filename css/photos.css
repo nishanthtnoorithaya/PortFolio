@@ -2327,7 +2327,8 @@ body {
 
 .main {
   position: relative;
-  background: #FFFFFF; }
+  background:#33813a; 
+}
 
 /* Animations */
 .nav-pills .nav-link,
@@ -2774,6 +2775,14 @@ img {
   max-width: 100%;
   border-radius: 1px; }
 
+@media screen and (orientation:portrait){
+  img{
+    width:500px;
+    height: 200px;
+  }
+}
+
+
 .img-raised {
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3); }
 
@@ -2808,7 +2817,7 @@ img {
   .popover.popover-primary {
     background-color: #378C3F; }
     .popover.popover-primary .popover-body {
-      color: #FFFFFF; }
+      color:#FFFFFF; }
     .popover.popover-primary.bs-popover-right .arrow:after {
       border-right-color: #378C3F; }
     .popover.popover-primary.bs-popover-top .arrow:after {
@@ -3645,7 +3654,7 @@ Created using IcoMoon - icomoon.io
   background-color: rgba(0, 0, 0, 0.5); }
 
 .section-full-page[filter-color="purple"]:after, .section-full-page[filter-color="primary"]:after {
-  background: rgba(227, 227, 227, 0.26);
+  background: rgba(122, 90, 90, 0.26);
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
@@ -3662,7 +3671,7 @@ Created using IcoMoon - icomoon.io
   z-index: 4; }
 
 .section-full-page > .content {
-  min-height: calc(100vh - 80px); }
+  min-height: 200px}
 
 .section-full-page .full-page-background {
   position: absolute;
@@ -3775,7 +3784,7 @@ Created using IcoMoon - icomoon.io
 .section {
   padding: 70px 0;
   position: relative;
-  background: #FFFFFF; }
+}
   .section .row + .category {
     margin-top: 15px; }
 
@@ -5010,9 +5019,7 @@ Created using IcoMoon - icomoon.io
 
 .gallery .cc-porfolio-image figure figcaption {
   position: absolute;
-  color: #fff;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
+   }
 
 .gallery .cc-porfolio-image figure figcaption,
 .gallery .cc-porfolio-image figure figcaption > a {
@@ -5060,7 +5067,12 @@ Created using IcoMoon - icomoon.io
   font-size: 18px;
   letter-spacing: 1px; }
 
+  #backgound {
+      width: auto;
+      background-image:url("images/background.jpg");
+      background-color: cyan;
 
+  }
   .zoom:hover{                           /* :active */
     -webkit-transform: scale(2,2);
     transform: scale(2,2);
@@ -5068,16 +5080,19 @@ Created using IcoMoon - icomoon.io
     transform-origin: center center;
     animation: normal;
   }
-  
-@media (max-width: 540px) {
+
+@media all and (max-width:540px) {
 .zoom:hover{                           /* :active */
   -webkit-transform: scale(2,2);
   transform: scale(2,2);
   transition: opacity 1.6s ease-out 0s, transform 0.2s linear 0s;
   transform-origin: center center;
   animation: normal;
+  width:500px;
 }
 }
+
+
 
 /* Footer */
 /* Social button style */
@@ -5103,3 +5118,11 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
+
+.footer{
+  position: relative;
+  height: 200px;
+  background-color: cyan;
+
+}
