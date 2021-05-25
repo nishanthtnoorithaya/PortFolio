@@ -250,7 +250,8 @@ figure {
 
 img {
     vertical-align: middle;
-    border-style: none
+    border-style: none;
+    
 }
 
 svg:not(:root) {
@@ -564,7 +565,7 @@ mark {
 
 .figure-img {
     margin-bottom: .5rem;
-    line-height: 1
+    line-height: 1;
 }
 
 .figure-caption {

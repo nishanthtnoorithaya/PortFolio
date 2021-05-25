@@ -1683,14 +1683,6 @@ img {
   max-width: 100%;
   border-radius: 1px; }
 
-@media screen and (orientation:portrait){
-  img{
-    width:300px;
-    height: 200px;
-  }
-}
-
-
 .img-raised {
   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3); }
 
@@ -2421,7 +2413,7 @@ Created using IcoMoon - icomoon.io
     background-color: #f2f2f2; }
   .footer nav {
     display: inline-block;
-    float: left; }
+ }
   .footer ul {
     margin-bottom: 0;
     padding: 0;
@@ -3521,7 +3513,7 @@ Created using IcoMoon - icomoon.io
     position: fixed;
     display: block;
     top: 0;
-    height: 100% !important;
+    height: 0% ;
     width: 300px;
     right: 0;
     z-index: 1032;
@@ -3530,7 +3522,7 @@ Created using IcoMoon - icomoon.io
     overflow-y: visible;
     border-top: none;
     text-align: left;
-    max-height: none !important;
+    max-height: none ;
     transform: translate3d(300px, 0, 0);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .burger-menu .navbar-collapse:before {
@@ -3917,13 +3909,8 @@ Created using IcoMoon - icomoon.io
 .gallery .cc-porfolio-image figure {
   position: relative;
   overflow: hidden;
-  text-align: center; }
-
-.gallery .cc-porfolio-image figure img {
-  position: relative;
-  display: block;
-  max-width: 100%;
-  opacity: 1; }
+  text-align: center;
+}
 
 .gallery .cc-porfolio-image figure figcaption {
   position: absolute;
@@ -3956,11 +3943,11 @@ Created using IcoMoon - icomoon.io
     .gallery figure.cc-effect .h4 {
       font-size: 14px; } }
 
-.gallery figure.cc-effect img{
-  transform: scale(1.06, 1.06); }
-
-.gallery figure.cc-effect img{
-  transition: opacity 0.35s, transform 0.35s; }
+      .gallery figure.cc-effect img{
+        transform: scale(1.06, 1.06); }
+      
+        .gallery figure.cc-effect img{
+          transition: opacity 0.35s, transform 0.35s; }
 
 .gallery figure.cc-effect:hover img {
   opacity: 1;
@@ -3999,13 +3986,6 @@ Created using IcoMoon - icomoon.io
 }
 } */
 
-
-
-
-
-
-
-
 /* Footer */
 /* Social button style */
 .cc-facebook:hover i {
@@ -4038,3 +4018,5 @@ a.credit {
   background-color:#F1DBCD;
 
 }
+
+
