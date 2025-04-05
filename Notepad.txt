@@ -1,0 +1,10 @@
+ <div class="modal fade invitation_pop" id="onload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Add this line to your code -->
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    <img src="images/Invitation.jpg" width="100%" height="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
