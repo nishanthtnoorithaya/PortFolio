@@ -5289,7 +5289,7 @@ a.credit {
   padding-bottom: 0; }
 
 
-/* Add github Icon */
+/* Add Globe Icon */
 .bottom-right {
   position:absolute;
   bottom: 8px;
@@ -5298,4 +5298,23 @@ a.credit {
 
 .card-body p {
   margin-bottom: 0.7rem; 
+}
+.bold{
+  font-weight: 600;
+}
+/* Add github Icon */
+.bottom-left {
+  position:absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.fa-globe:hover,.fa-github:hover{
+  font-size: 50px !important;
+}
+ul.Job-Description{
+  padding-left: 16px;
+  margin-bottom: 0.7rem;
+}
+ul.Job-Description li{
+  padding-bottom: 0.5rem;
 }
