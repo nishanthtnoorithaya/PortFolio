@@ -2,3 +2,21 @@
   width: auto;
   background-color: #F1DBCD;
 }
+.Photos{
+  margin-bottom: 50px;
+}
+.navbar.navbar-transparent{
+  background-color: #378C3F !important;
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-collapse .navbar .navbar-nav{
+  margin-top: 0px;
+}
+.Profile-image{
+  right: 16px;
+  position: absolute;
+}
